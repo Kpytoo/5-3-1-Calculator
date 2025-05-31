@@ -5,6 +5,9 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to bottom right, rgb(199, 64, 64), rgba(203, 203, 54, 0.928));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 div {
@@ -19,6 +22,7 @@ div {
     gap: 100px;
     width: 800px;
     height: 200px;
+    background-color: rgb(178, 32, 32);
 }
 
 #enter_weight {
@@ -62,6 +66,7 @@ input {
     column-gap: 30px;
     justify-content: space-around;
     align-content: center;
+    background-color: lightblue;
 }
 
 #div_week_one, #div_week_two, #div_week_three, #div_week_four { /*apply to all, delimited by a comma*/
