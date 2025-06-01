@@ -1,13 +1,14 @@
 body {
-    padding:0px;
+    padding:20px;
     margin:0px;
     display:flex;
     flex-direction: column;
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: linear-gradient(to bottom right, rgb(199, 64, 64), rgba(203, 203, 54, 0.928));
+    background: linear-gradient(to bottom right, rgb(185, 118, 41), rgba(223, 223, 56, 0.928));
     background-repeat: no-repeat;
     background-attachment: fixed;
+    gap: 20px;
 }
 
 div {
@@ -15,18 +16,18 @@ div {
 }
 
 #input_div {
-    border-style: solid;
+    border-radius: 500px;
     flex: 0 0 auto;
     display:flex;
     justify-content: center;
     gap: 100px;
     width: 800px;
     height: 200px;
-    background-color: rgb(178, 32, 32);
+    background: linear-gradient(to bottom right, rgb(246, 178, 91), rgba(222, 97, 72, 0.928));
 }
 
 #enter_weight {
-    border-style: solid;
+    /* border-style: solid; */
     flex: 0 0 auto;
     border-radius: 100px;
     height: 150px;
@@ -38,12 +39,14 @@ div {
     align-items: center;
     font-size: 40px;
     text-align: center;
+    background: radial-gradient(rgb(250, 234, 214),rgb(207, 151, 118));
 }
 
 #input_weight {
-    border-style: solid;
     flex: 0 0 auto;
     display:flex;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 form {
@@ -54,10 +57,12 @@ form {
 
 input {
     width: 50px;
+    border-radius: 15px;
+    border-style: none;
 }
 
 #display_div {
-    border-style: solid;
+    border-radius: 100px;
     height: 600px;
     width: 800px;
     display:flex;
@@ -66,7 +71,8 @@ input {
     column-gap: 30px;
     justify-content: space-around;
     align-content: center;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background: linear-gradient(to left, rgb(206, 187, 150), rgb(177, 188, 129));
 }
 
 #div_week_one, #div_week_two, #div_week_three, #div_week_four { /*apply to all, delimited by a comma*/
